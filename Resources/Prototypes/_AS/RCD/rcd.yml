@@ -1,0 +1,813 @@
+- type: rcd
+  id: ComputerSomberTelevision
+  category: Electrical
+  sprite: _DEN/Structures/Machines/computers.rsi/sombertelevision.png
+  mode: ConstructObject
+  prototype: ComputerSomberTelevision
+  cost: 5
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: SomberJukebox
+  category: Electrical
+  sprite: _DEN/Structures/Machines/somberjukebox.rsi/on.png
+  mode: ConstructObject
+  prototype: SomberJukebox
+  cost: 5
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: GloomyHolopadBluespace
+  category: Electrical
+  sprite: _DEN/Structures/Machines/somberholopad.rsi/base.png
+  mode: ConstructObject
+  prototype: GloomyHolopadBluespace
+  cost: 5
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: SomberPowerCellRecharger
+  category: Electrical
+  sprite: _DEN/Structures/Power/somber_cell_recharger.rsi/full.png
+  mode: ConstructObject
+  prototype: SomberPowerCellRecharger
+  cost: 5
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: CandleSomberMantisCluster
+  category: WindowsAndGrilles
+  sprite: _DEN/Objects/Misc/candlesmantis.rsi/candle-cluster.png
+  mode: ConstructObject
+  prototype: CandleSomberMantisCluster
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+    
+- type: rcd
+  id: CandleSomberMantisSmall
+  category: WindowsAndGrilles
+  sprite: _DEN/Objects/Misc/candlesmantis.rsi/candle-small.png
+  mode: ConstructObject
+  prototype: CandleSomberMantisSmall
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: CandleSomberMantis
+  category: WindowsAndGrilles
+  sprite: _DEN/Objects/Misc/candlesmantis.rsi/candle-big.png
+  mode: ConstructObject
+  prototype: CandleSomberMantis
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: SomberCounter
+  category: WindowsAndGrilles
+  sprite: _DEN/Structures/Furniture/Tables/somberwoodcounter.rsi/full.png
+  mode: ConstructObject
+  prototype: SomberCounter
+  cost: 5
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: SomberTable
+  category: WindowsAndGrilles
+  sprite: _DEN/Structures/Furniture/Tables/somberwoodtable.rsi/full.png
+  mode: ConstructObject
+  prototype: SomberTable
+  cost: 5
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: SomberDresser
+  category: WindowsAndGrilles
+  sprite: _DEN/Structures/Furniture/furniture.rsi/somberdresser.png
+  mode: ConstructObject
+  prototype: SomberDresser
+  cost: 5
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: SomberPsychBed
+  category: WindowsAndGrilles
+  sprite: _DEN/Structures/Furniture/furniture.rsi/somberpsychbed.png
+  mode: ConstructObject
+  prototype: SomberPsychBed
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: BookshelfSomber
+  category: WindowsAndGrilles
+  sprite: _DEN/Structures/Furniture/somberbookshelf.rsi/base.png
+  mode: ConstructObject
+  prototype: BookshelfSomber
+  cost: 5
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: SomberChairCushion
+  category: WindowsAndGrilles
+  sprite: _DEN/Structures/Furniture/chairs.rsi/somberfloorcushion.png
+  mode: ConstructObject
+  prototype: SomberChairCushion
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: SomberChairLeather
+  category: WindowsAndGrilles
+  sprite: _DEN/Structures/Furniture/chairs.rsi/somberleather.png
+  mode: ConstructObject
+  prototype: SomberChairLeather
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: SomberChairWood
+  category: WindowsAndGrilles
+  sprite: _DEN/Structures/Furniture/chairs.rsi/somberwood.png
+  mode: ConstructObject
+  prototype: SomberChairWood
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: SomberHangingBrazier
+  category: Lighting
+  sprite: _DEN/Structures/Decoration/somberhangingbrazier.rsi/fireplace.png
+  mode: ConstructObject
+  prototype: SomberHangingBrazier
+  cost: 3
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: SomberFireplace
+  category: Lighting
+  sprite: _DEN/Structures/Decoration/somberfireplace.rsi/fireplace.png
+  mode: ConstructObject
+  prototype: SomberFireplace
+  cost: 5
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: LightSomberEidoliteWellLampOn
+  category: Lighting
+  sprite: _DEN/Structures/Lighting/LightPosts/lampeidolitewell.rsi/base.png
+  mode: ConstructObject
+  prototype: LightSomberEidoliteWellLampOn
+  cost: 3
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: LightSomberEidoliteFloorLampOn
+  category: Lighting
+  sprite: _DEN/Structures/Lighting/LightPosts/lampeidolitefloor.rsi/base.png
+  mode: ConstructObject
+  prototype: LightSomberEidoliteFloorLampOn
+  cost: 3
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: SomberAmaranthDoor
+  category: Airlocks
+  sprite: _DEN/Structures/Doors/MineralDoors/amaranth_door.rsi/closed.png
+  mode: ConstructObject
+  prototype: SomberAmaranthDoor
+  cost: 10
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: SomberMnemolithDoor
+  category: Airlocks
+  sprite: _DEN/Structures/Doors/MineralDoors/mnemolith_door.rsi/closed.png
+  mode: ConstructObject
+  prototype: SomberMnemolithDoor
+  cost: 10
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+# Flooring
+
+- type: rcd
+  id: FloorSomberSteel
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile.png
+  mode: ConstructTile
+  prototype: FloorSomberSteel
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberSteel
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile.png
+  mode: ConstructTile
+  prototype: FloorSomberSteel
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberSteelHerringbone
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-herringbone.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelHerringbone
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberSteelMini
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-mini.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelMini
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberSteelMono
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-mono.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelMono
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberSteelDiagonal
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-diagonal.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelDiagonal
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberSteelDiagonalMini
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-diagonal-mini.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelDiagonalMini
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberSteelMonoEye
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-mono-eye.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelMonoEye
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberSteelMonoDark
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-mono-dark.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelMonoDark
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberSteelOffset
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-offset.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelOffset
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberSteelPavement
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-pavement.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelPavement
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberSteelPavementVertical
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-pavement-vertical.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelPavementVertical
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+# Glass
+
+- type: rcd
+  id: FloorSomberGlass
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-glass.png
+  mode: ConstructTile
+  prototype: FloorSomberGlass
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberGlassPlasma
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-glass-plasma.png
+  mode: ConstructTile
+  prototype: FloorSomberGlassPlasma
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberGlassUranium
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-glass-uranium.png
+  mode: ConstructTile
+  prototype: FloorSomberGlassUranium
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+# Amaranth
+
+- type: rcd
+  id: FloorSomberAmaranth
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-amaranth.png
+  mode: ConstructTile
+  prototype: FloorSomberAmaranth
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberAmaranthEye
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-amaranth-eye.png
+  mode: ConstructTile
+  prototype: FloorSomberAmaranthEye
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+# Wood
+
+- type: rcd
+  id: FloorSomberWood
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-wood.png
+  mode: ConstructTile
+  prototype: FloorSomberWood
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberWoodChess
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-wood-chess.png
+  mode: ConstructTile
+  prototype: FloorSomberWoodChess
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberWoodLarge
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-wood-large.png
+  mode: ConstructTile
+  prototype: FloorSomberWoodLarge
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberWoodParquet
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-wood-parquet.png
+  mode: ConstructTile
+  prototype: FloorSomberWoodParquet
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberWoodChess
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-wood-pattern.png
+  mode: ConstructTile
+  prototype: FloorSomberWoodChess
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+# Mnemolith
+
+- type: rcd
+  id: FloorSomberMnemolithRough
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-mnemolith-rough.png
+  mode: ConstructTile
+  prototype: FloorSomberMnemolithRough
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberMnemolithSmooth
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-mnemolith-smooth.png
+  mode: ConstructTile
+  prototype: FloorSomberMnemolithSmooth
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+# Dark Tiles
+
+- type: rcd
+  id: FloorSomberSteelCheckerDark
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-checkered-dark.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelCheckerDark
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberSteelBandedDark
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-banded-dark.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelBandedDark
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberSteelDiagonalDark
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-diagonal-dark.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelDiagonalDark
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberSteelDiagonalMiniDark
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-diagonal-mini-dark.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelDiagonalMiniDark
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+# Magenta Tiles
+
+- type: rcd
+  id: FloorSomberSteelCheckerMagenta
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-checkered-Magenta.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelCheckerMagenta
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberSteelBandedMagenta
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-banded-Magenta.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelBandedMagenta
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberSteelDiagonalMagenta
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-diagonal-Magenta.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelDiagonalMagenta
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberSteelDiagonalMiniMagenta
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-diagonal-mini-Magenta.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelDiagonalMiniMagenta
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+# Purple Tiles
+
+- type: rcd
+  id: FloorSomberSteelCheckerPurple
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-checkered-Purple.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelCheckerPurple
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberSteelBandedPurple
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-banded-Purple.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelBandedPurple
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberSteelDiagonalPurple
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-diagonal-Purple.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelDiagonalPurple
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1
+
+- type: rcd
+  id: FloorSomberSteelDiagonalMiniPurple
+  category: WallsAndFlooring
+  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile-diagonal-mini-Purple.png
+  mode: ConstructTile
+  prototype: FloorSomberSteelDiagonalMiniPurple
+  cost: 1
+  delay: 1
+  collisionMask: InteractImpassable
+  rules:
+    - CanBuildOnEmptyTile
+  rotation: Fixed
+  fx: EffectRCDConstruct1

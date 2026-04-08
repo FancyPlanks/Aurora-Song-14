@@ -1,0 +1,96 @@
+- type: entity
+  id: SomberRCD
+  parent: BaseItem # Frontier: remove BaseEngineeringContraband
+  name: Somber RCD [ADMIN]
+  description: The only way to make your home somber. Requires compressed matter to function.
+  components:
+  - type: RCD
+    availablePrototypes:
+    - ComputerSomberTelevision
+    - SomberJukebox
+    - SomberPowerCellRecharger
+    - GloomyHolopadBluespace
+    - CandleSomberMantis
+    - CandleSomberMantisSmall
+    - CandleSomberMantisCluster
+    - SomberAmaranthDoor
+    - SomberMnemolithDoor
+    - SomberCounter
+    - SomberTable
+    - SomberDresser
+    - SomberPsychBed
+    - BookshelfSomber
+    - SomberChairCushion
+    - SomberChairLeather
+    - SomberChairWood
+    - SomberHangingBrazier
+    - SomberFireplace
+    - LightSomberEidoliteFloorLampOn
+    - LightSomberEidoliteWellLampOn
+    # Plain Tiles
+    - FloorSomberSteel
+    - FloorSomberSteelPavement
+    - FloorSomberSteelPavementVertical
+    - FloorSomberSteelMono
+    - FloorSomberSteelMonoDark
+    - FloorSomberSteelMonoEye
+    - FloorSomberSteelDiagonal
+    - FloorSomberSteelMini
+    - FloorSomberSteelDiagonalMini
+    - FloorSomberSteelHerringbone
+    # Glass Tiles
+    - FloorSomberGlass
+    - FloorSomberGlassPlasma
+    - FloorSomberGlassUranium
+    # Amaranth
+    - FloorSomberAmaranth
+    - FloorSomberAmaranthEye
+    # Wood Tiles
+    - FloorSomberWood
+    - FloorSomberWoodLarge
+    - FloorSomberWoodParquet
+    - FloorSomberWoodChess
+    # Mnemolith Tiles
+    - FloorSomberMnemolithRough
+    - FloorSomberMnemolithSmooth
+    # Dark Tiles
+    - FloorSomberSteelCheckerDark
+    - FloorSomberSteelBandedDark
+    - FloorSomberSteelDiagonalDark
+    - FloorSomberSteelDiagonalMiniDark
+    # Magenta Tiles
+    - FloorSomberSteelCheckerMagenta
+    - FloorSomberSteelBandedMagenta
+    - FloorSomberSteelDiagonalMagenta
+    - FloorSomberSteelDiagonalMiniMagenta
+    # Purple Tiles
+    - FloorSomberSteelCheckerPurple
+    - FloorSomberSteelBandedPurple
+    - FloorSomberSteelDiagonalPurple
+    - FloorSomberSteelDiagonalMiniPurple
+  - type: LimitedCharges
+    maxCharges: 120
+  - type: Sprite
+    sprite: _AS/Objects/Tools/somber_rcd.rsi 
+    state: icon
+  - type: Item
+    size: Normal
+  - type: Clothing
+    sprite: _AS/Objects/Tools/somber_rcd.rsi 
+    quickEquip: false
+    slots:
+    - Belt
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 500 # Frontier: 600<500
+      Plastic: 100
+  - type: StaticPrice
+    price: 55 # Frontier 110<55
+    vendPrice: 5000 # Frontier
+  - type: UserInterface
+    interfaces:
+      enum.RcdUiKey.Key:
+        type: RCDMenuBoundUserInterface
+  - type: ActivatableUI
+    inHandsOnly: true
+    key: enum.RcdUiKey.Key
