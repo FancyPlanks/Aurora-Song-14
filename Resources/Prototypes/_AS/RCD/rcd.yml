@@ -27,11 +27,11 @@
   fx: EffectRCDConstruct1
 
 - type: rcd
-  id: GloomyHolopadBluespace
+  id: GloomyHolopadShip
   category: Electrical
   sprite: _DEN/Structures/Machines/somberholopad.rsi/base.png
   mode: ConstructObject
-  prototype: GloomyHolopadBluespace
+  prototype: GloomyHolopadShip
   cost: 5
   delay: 1
   collisionMask: InteractImpassable
@@ -293,20 +293,6 @@
   fx: EffectRCDConstruct1
 
 # Flooring
-
-- type: rcd
-  id: FloorSomberSteel
-  category: WallsAndFlooring
-  sprite: _DEN/Objects/Tiles/tile.rsi/somber-tile.png
-  mode: ConstructTile
-  prototype: FloorSomberSteel
-  cost: 1
-  delay: 1
-  collisionMask: InteractImpassable
-  rules:
-    - CanBuildOnEmptyTile
-  rotation: Fixed
-  fx: EffectRCDConstruct1
 
 - type: rcd
   id: FloorSomberSteel
