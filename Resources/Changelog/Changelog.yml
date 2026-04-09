@@ -7244,3 +7244,92 @@ Entries:
   id: 9088
   time: '2026-04-05T11:08:34.0000000+00:00'
   url: https://github.com/AuroraSong14/Aurora-Song-14/pull/900
+- author: ZigTag
+  changes:
+    - type: Fix
+      message: increased encryption key count to 20 on IPCs
+    - type: Fix
+      message: interaction menu not appearing on IPCs
+    - type: Fix
+      message: non polymorphable IPCs
+    - type: Fix
+      message: encryption key component now properly syncs lock state with client
+    - type: Tweak
+      message: IPCs can now self insert batteries
+  id: 9089
+  time: '2026-04-06T01:26:25.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/906
+- author: LizArmchair
+  changes:
+    - type: Add
+      message: air can dispensers to PB
+    - type: Fix
+      message: Fixed air can labeling
+  id: 9090
+  time: '2026-04-06T03:09:43.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/910
+- author: portfiend
+  changes:
+    - type: Add
+      message: >-
+        Mochi has been added in a variety of flavors: (regular) mochi, cherry
+        mochi, bungo mochi, chocolate mochi, fiber mochi, rosy mochi, spice
+        mochi, tea mochi, ube mochi, and pumpkin mochi.
+  id: 9091
+  time: '2026-04-06T03:51:05.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/907
+- author: LizArmchair, ZigTag
+  changes:
+    - type: Add
+      message: Avali from Moff Station!
+    - type: Tweak
+      message: loadout code to add ammonia to survival kits
+  id: 9092
+  time: '2026-04-06T09:10:26.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/905
+- author: ZigTag
+  changes:
+    - type: Fix
+      message: >-
+        Denu formatting no longer breaks players with the silicon damage accent,
+        or the stuttering accent
+    - type: Fix
+      message: The silicon damage accent will no longer terminate your sentences early
+  id: 9093
+  time: '2026-04-06T09:19:10.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/911
+- author: Phoenix51505
+  changes:
+    - type: Fix
+      message: Hits ESS with more hammers to get it to work
+  id: 9094
+  time: '2026-04-06T09:19:35.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/908
+- author: snezshiba
+  changes:
+    - type: Add
+      message: Added Ovinia, a sheep/cow/deer roundstart species!
+  id: 9095
+  time: '2026-04-06T09:26:29.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/903
+- author: portfiend
+  changes:
+    - type: Tweak
+      message: A vast majority of loadouts no longer have playtime requirements.
+  id: 9096
+  time: '2026-04-07T12:23:47.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/915
+- author: Zenixic
+  changes:
+    - type: Add
+      message: Added ship and intra ship prototypes for gloomy holopads for mapping
+  id: 9097
+  time: '2026-04-08T14:19:42.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/914
+- author: Vandanna
+  changes:
+    - type: Fix
+      message: Undo UI lock on Damascus Shipyard
+  id: 9098
+  time: '2026-04-09T07:10:01.0000000+00:00'
+  url: https://github.com/AuroraSong14/Aurora-Song-14/pull/917
