@@ -580,20 +580,6 @@
   rotation: Fixed
   fx: EffectRCDConstruct1
 
-- type: rcd
-  id: FloorSomberWoodChess
-  category: WallsAndFlooring
-  sprite: _DEN/Objects/Tiles/tile.rsi/somber-wood-pattern.png
-  mode: ConstructTile
-  prototype: FloorSomberWoodChess
-  cost: 1
-  delay: 1
-  collisionMask: InteractImpassable
-  rules:
-    - CanBuildOnEmptyTile
-  rotation: Fixed
-  fx: EffectRCDConstruct1
-
 # Mnemolith
 
 - type: rcd
